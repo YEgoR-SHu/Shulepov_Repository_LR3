@@ -28,9 +28,12 @@ int getZ() {
 // Функция для определения количества четных чисел
 int CountChet(int x, int y, int z) {
     int count = 0;
-    if (x % 2 == 0) count++;
-    if (y % 2 == 0) count++;
-    if (z % 2 == 0) count++;
+    if (x % 2 == 0) // proverka
+    count++; //  +1
+    if (y % 2 == 0)  //proverka
+    count++; // +1
+    if (z % 2 == 0) // proverka
+    count++; // +1
     return count;
 }
 
