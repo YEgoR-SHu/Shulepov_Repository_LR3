@@ -40,9 +40,12 @@ int CountChet(int x, int y, int z) {
 // Функция для вычисления суммы четных чисел
 int SumChet(int x, int y, int z) {
     int sum = 0;
-    if (x % 2 == 0) sum += x;
-    if (y % 2 == 0) sum += y;
-    if (z % 2 == 0) sum += z;
+    if (x % 2 == 0) // proverka
+    sum += x; // + k sum
+    if (y % 2 == 0) // proverka
+    sum += y; // + k sum
+    if (z % 2 == 0) // proverka
+    sum += z; // + k sum
     return sum;
 }
 
