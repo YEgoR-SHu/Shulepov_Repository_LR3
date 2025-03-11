@@ -1,20 +1,19 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
-// Функция количества четных чисел
 int Countch(int x, int y, int z) {
     int count = 0;
-    if (x % 2 == 0) 
+    if (x % 2 == 0) // proverka x
     count++;
-    if (y % 2 == 0) 
+    if (y % 2 == 0) //proverka y
     count++;
-    if (z % 2 == 0) 
+    if (z % 2 == 0)  //proverka z
     count++;
+    cout << "Molodec!!!" << endl;
     return count;
-}
+    // function chet u nechet
 
-// Функция суммы четных чисел
+}
 int Sumch(int x, int y, int z) {
     int sum = 0;
     if (x % 2 == 0) 
@@ -25,10 +24,8 @@ int Sumch(int x, int y, int z) {
     sum += z;
     return sum;
 }
-
 int main() {
     int choice, x, y, z;
-
     while (true) {
         cout << "Menu:\n";
         cout << "1. Ввести целые числа X, Y, Z\n";
@@ -37,7 +34,6 @@ int main() {
         cout << "0. Выход\n";
         cout << "Выберите пункт меню: ";
         cin >> choice;
-
         switch (choice) {
             case 1:
                 cout << "Введите число X: ";
@@ -60,6 +56,5 @@ int main() {
                 cout << "Неверный выбор. Попробуйте снова.\n";
         }
     }
-
     return 0;
 }
