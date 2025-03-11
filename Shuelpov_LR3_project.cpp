@@ -12,8 +12,9 @@ int getX() {
 
 int getY() {
     int y;
-    cout << "Введите число Y: ";
-    cin >> y;
+    cout << 'molodec'<< end;
+    cout << "Введите число Y: "; //chuslco
+    cin >> y; // zapros
     return y;
 }
 
