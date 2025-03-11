@@ -4,8 +4,9 @@ using namespace std;
 // Функции для ввода значений X, Y, Z
 int getX() {
     int x;
-    cout << "Введите число X: ";
-    cin >> x;
+    cout << 'molodec'<< end;
+    cout << "Введите число X: "; // huslco
+    cin >> x; // zapros
     return x;
 }
 
