@@ -19,9 +19,9 @@ int getY() {
 }
 
 int getZ() {
-    int z;
-    cout << "Введите число Z: ";
-    cin >> z;
+    int z; 
+    cout << "Введите число Z: " << endl; //chuslo 
+    cin >> z; //zapros
     return z;
 }
 
